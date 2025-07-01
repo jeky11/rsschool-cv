@@ -86,12 +86,10 @@ At the Inostudio, I worked on a few small and big projects. The last project I w
 ## Education
 
 ### Taganrog State Radio Technical University 
-#### Bachelor's degree, Computer Science
-#### September 2007 - February 2011
+#### Bachelor's degree, Computer Science, 2011
 
 ### Armavir State Engineering College
-#### Software of computer and automated systems
-#### September 2003 - September 2007
+#### Software of computer and automated systems, 2007
 
 ## Language
 Russian (Native), English - Intermediate(B1)
