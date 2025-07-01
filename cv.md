@@ -23,3 +23,28 @@ resulting in substantial improvements in stability, scalability, and performance
 * React, Redux, AngularJS, jQuery, JavaScript
 * Event Sourcing, CQRS, DDD, TDD, TBD, Agile, Scrum
 * Visual Studio, JetBrains Rider, Jira, Slack, Grafana, Kibana
+
+## Code example
+```
+public string LongestCommonPrefix(string[] strs)
+{
+	string result = "";
+	int shortestStr = strs.Min(s => s.Length);
+
+	for (int charNumber = 0; charNumber < shortestStr; charNumber++)
+	{
+		char commonChar = strs[0][charNumber];
+		for (byte strNumber = 1; strNumber < strs.Length; strNumber++)
+		{
+			if (strs[strNumber][charNumber] != commonChar)
+			{
+				return result;
+			}
+		}
+
+		result += commonChar;
+	}
+
+	return result;
+}
+```
